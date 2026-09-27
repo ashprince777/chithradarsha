@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldCaparison5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5B8" />
+      <stop offset="30%" stop-color="#E5B83A" />
+      <stop offset="70%" stop-color="#C5961D" />
+      <stop offset="100%" stop-color="#8F680D" />
+    </linearGradient>
+    <radialGradient id="sphere5" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="35%" stop-color="#FCE588" />
+      <stop offset="75%" stop-color="#C9981E" />
+      <stop offset="100%" stop-color="#6E4F06" />
+    </radialGradient>
+    <linearGradient id="navyVelvet5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <filter id="shadow5" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Left Dimension Line: 2.5 Feet / 30" -->
+  <g stroke="#0F172A" stroke-width="1.5">
+    <line x1="100" y1="50" x2="100" y2="600" />
+    <polygon points="100,50 96,62 104,62" fill="#0F172A" />
+    <polygon points="100,600 96,588 104,588" fill="#0F172A" />
+    <!-- Dimension Text -->
+    <text x="80" y="310" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="bold" fill="#0F172A" transform="rotate(-90 80 310)" text-anchor="middle">
+      2.5 Feet (30")
+    </text>
+  </g>
+
+  <!-- Right Dimension Line: 2 Feet / 24" (Caparison body only) -->
+  <g stroke="#0F172A" stroke-width="1.5">
+    <line x1="440" y1="90" x2="440" y2="445" />
+    <polygon points="440,90 436,102 444,102" fill="#0F172A" />
+    <polygon points="440,445 436,433 444,433" fill="#0F172A" />
+    <!-- Dimension Text -->
+    <text x="465" y="270" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="bold" fill="#0F172A" transform="rotate(90 465 270)" text-anchor="middle">
+      2 Feet (24")
+    </text>
+  </g>
+
+  <!-- Bottom Dimension Line: 1.25 Feet (15") -->
+  <g stroke="#0F172A" stroke-width="1.5">
+    <line x1="140" y1="645" x2="400" y2="645" />
+    <polygon points="140,645 152,641 152,649" fill="#0F172A" />
+    <polygon points="400,645 388,641 388,649" fill="#0F172A" />
+    <!-- Dimension Text -->
+    <text x="270" y="668" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="bold" fill="#0F172A" text-anchor="middle">
+      1.25 Feet (15")
+    </text>
+  </g>
+
+  <!-- Main Nettipattam Graphic Group -->
+  <g filter="url(#shadow5)" transform="translate(40, 20)">
+    <!-- Top Black Hanging Cord -->
+    <path d="M 230 15 L 160 50 M 230 15 L 300 50" stroke="#0F172A" stroke-width="3" stroke-linecap="round" fill="none" />
+
+    <!-- Fringe Border: Alternating Navy Blue & White Wool Tufts -->
+    <!-- Left Border -->
+    <path d="M 140 50 L 125 50 L 128 115 L 145 115 Z" fill="#1E3A8A" stroke="#0F172A" stroke-width="1" />
+    <path d="M 145 115 L 128 115 L 133 205 L 155 205 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" />
+    <path d="M 155 205 L 133 205 L 144 310 L 168 310 Z" fill="#1E3A8A" stroke="#0F172A" stroke-width="1" />
+    <path d="M 168 310 L 144 310 L 162 390 L 188 390 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" />
+    <path d="M 188 390 L 162 390 Q 180 435 230 435 Q 280 435 298 390 L 272 390 Z" fill="#1E3A8A" stroke="#0F172A" stroke-width="1" />
+
+    <!-- Right Border -->
+    <path d="M 320 50 L 335 50 L 332 115 L 315 115 Z" fill="#1E3A8A" stroke="#0F172A" stroke-width="1" />
+    <path d="M 315 115 L 332 115 L 327 205 L 305 205 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" />
+    <path d="M 305 205 L 327 205 L 316 310 L 292 310 Z" fill="#1E3A8A" stroke="#0F172A" stroke-width="1" />
+    <path d="M 292 310 L 316 310 L 298 390 L 272 390 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" />
+
+    <!-- Top Navy Velvet Bar with Gold Frame -->
+    <rect x="150" y="50" width="160" height="38" rx="4" fill="url(#navyVelvet5)" stroke="url(#goldCaparison5)" stroke-width="3" />
+    <!-- 5 Spherical Gold Studs -->
+    <circle cx="166" cy="69" r="6.5" fill="url(#sphere5)" />
+    <circle cx="198" cy="69" r="6.5" fill="url(#sphere5)" />
+    <circle cx="230" cy="69" r="6.5" fill="url(#sphere5)" />
+    <circle cx="262" cy="69" r="6.5" fill="url(#sphere5)" />
+    <circle cx="294" cy="69" r="6.5" fill="url(#sphere5)" />
+
+    <!-- Golden Caparison Body -->
+    <path d="M 152 92 L 308 92 L 275 390 Q 230 425 185 390 Z" fill="url(#goldCaparison5)" stroke="#B48216" stroke-width="2" />
+
+    <!-- Micro Studs Beaded Surface -->
+    <g fill="#DCA524" opacity="0.6">
+      <circle cx="170" cy="115" r="2.5" /><circle cx="185" cy="115" r="2.5" /><circle cx="200" cy="115" r="2.5" /><circle cx="215" cy="115" r="2.5" /><circle cx="230" cy="115" r="2.5" /><circle cx="245" cy="115" r="2.5" /><circle cx="260" cy="115" r="2.5" /><circle cx="275" cy="115" r="2.5" /><circle cx="290" cy="115" r="2.5" />
+      <circle cx="165" cy="140" r="2.5" /><circle cx="295" cy="140" r="2.5" />
+      <circle cx="170" cy="180" r="2.5" /><circle cx="290" cy="180" r="2.5" />
+      <circle cx="175" cy="220" r="2.5" /><circle cx="285" cy="220" r="2.5" />
+      <circle cx="180" cy="260" r="2.5" /><circle cx="280" cy="260" r="2.5" />
+      <circle cx="185" cy="300" r="2.5" /><circle cx="275" cy="300" r="2.5" />
+      <circle cx="190" cy="340" r="2.5" /><circle cx="270" cy="340" r="2.5" />
+      <circle cx="200" cy="380" r="2.5" /><circle cx="260" cy="380" r="2.5" />
+    </g>
+
+    <!-- Top 3 Large Golden Kumbham Studs with Sunburst Halos -->
+    <circle cx="185" cy="150" r="20" stroke="#8F680D" stroke-width="1.5" stroke-dasharray="3,2" fill="none" />
+    <circle cx="185" cy="150" r="14" fill="url(#sphere5)" />
+
+    <circle cx="230" cy="165" r="18" stroke="#8F680D" stroke-width="1.5" stroke-dasharray="3,2" fill="none" />
+    <circle cx="230" cy="165" r="12" fill="url(#sphere5)" />
+
+    <circle cx="275" cy="150" r="20" stroke="#8F680D" stroke-width="1.5" stroke-dasharray="3,2" fill="none" />
+    <circle cx="275" cy="150" r="14" fill="url(#sphere5)" />
+
+    <!-- Central Gold Ganesha Emblem -->
+    <g transform="translate(212, 195)">
+      <path d="M 18 0 C 10 -6, 5 5, 2 12 C -2 19, 5 25, 10 22 C 12 18, 14 12, 18 10 C 22 12, 24 18, 26 22 C 31 25, 38 19, 34 12 C 31 5, 26 -6, 18 0 Z" fill="url(#sphere5)" stroke="#8F680D" stroke-width="1" />
+      <circle cx="18" cy="8" r="4" fill="#FFF2A3" />
+      <path d="M 16 16 L 16 30 Q 18 34 21 32 Q 22 28 19 26 L 20 16 Z" fill="url(#goldCaparison5)" />
+    </g>
+
+    <!-- Descending Spine of Golden Crescent Moons (Chandran) -->
+    <path d="M 205 245 Q 230 262 255 245 Q 230 255 205 245 Z" fill="url(#sphere5)" />
+    <path d="M 208 265 Q 230 282 252 265 Q 230 275 208 265 Z" fill="url(#sphere5)" />
+    <path d="M 211 285 Q 230 302 249 285 Q 230 295 211 285 Z" fill="url(#sphere5)" />
+    <path d="M 214 305 Q 230 320 246 305 Q 230 314 214 305 Z" fill="url(#sphere5)" />
+    <path d="M 217 325 Q 230 338 243 325 Q 230 333 217 325 Z" fill="url(#sphere5)" />
+
+    <!-- Lateral Studs -->
+    <circle cx="190" cy="245" r="5" fill="url(#sphere5)" /><circle cx="270" cy="245" r="5" fill="url(#sphere5)" />
+    <circle cx="195" cy="280" r="5" fill="url(#sphere5)" /><circle cx="265" cy="280" r="5" fill="url(#sphere5)" />
+    <circle cx="202" cy="315" r="4.5" fill="url(#sphere5)" /><circle cx="258" cy="315" r="4.5" fill="url(#sphere5)" />
+    <circle cx="210" cy="345" r="4.5" fill="url(#sphere5)" /><circle cx="250" cy="345" r="4.5" fill="url(#sphere5)" />
+    <circle cx="230" cy="360" r="5" fill="url(#sphere5)" />
+
+    <!-- Bottom Bell Finial & Blue/White Split Tassel -->
+    <!-- Gold Bell Cone -->
+    <path d="M 220 435 L 240 435 L 235 460 L 225 460 Z" fill="url(#sphere5)" stroke="#7E5606" stroke-width="1" />
+    <circle cx="230" cy="462" r="6" fill="url(#sphere5)" />
+
+    <!-- Blue and White Split Hanging Tassel -->
+    <!-- White Left Half -->
+    <path d="M 224 466 C 218 505, 215 545, 222 585" stroke="#F8FAFC" stroke-width="8" stroke-linecap="round" fill="none" />
+    <!-- Navy Blue Right Half -->
+    <path d="M 235 466 C 242 505, 245 545, 238 585" stroke="#1E3A8A" stroke-width="10" stroke-linecap="round" fill="none" />
+    <rect x="223" y="470" width="14" height="4" rx="2" fill="url(#goldCaparison5)" />
+  </g>
+</svg>

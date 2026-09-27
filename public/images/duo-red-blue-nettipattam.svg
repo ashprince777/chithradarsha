@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldMiniDuo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8D6" />
+      <stop offset="35%" stop-color="#EAB308" />
+      <stop offset="70%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#854D0E" />
+    </linearGradient>
+    <radialGradient id="sphereDuo" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="35%" stop-color="#FDE047" />
+      <stop offset="75%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#713F12" />
+    </radialGradient>
+    <filter id="duoShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <g filter="url(#duoShadow)">
+    <!-- LEFT PIECE: Classic Red & Forest Green 2.5ft Nettipattam (Photo 11 Left) -->
+    <g transform="translate(20, 20)">
+      <!-- Top cord -->
+      <path d="M 125 15 L 75 40 M 125 15 L 175 40" stroke="#EA580C" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+      <!-- Alternating Red & Green Wool Fringe -->
+      <path d="M 60 40 L 48 40 L 50 95 L 64 95 Z" fill="#15803D" />
+      <path d="M 64 95 L 50 95 L 54 175 L 70 175 Z" fill="#DC2626" />
+      <path d="M 70 175 L 54 175 L 62 260 L 80 260 Z" fill="#15803D" />
+      <path d="M 80 260 L 62 260 Q 80 320 125 320 Q 170 320 188 260 L 170 260 Z" fill="#DC2626" />
+
+      <path d="M 190 40 L 202 40 L 200 95 L 186 95 Z" fill="#15803D" />
+      <path d="M 186 95 L 200 95 L 196 175 L 180 175 Z" fill="#DC2626" />
+      <path d="M 180 175 L 196 175 L 188 260 L 170 260 Z" fill="#15803D" />
+
+      <!-- Red Velvet Top Bar -->
+      <rect x="65" y="40" width="120" height="28" rx="3" fill="#991B1B" stroke="url(#goldMiniDuo)" stroke-width="2" />
+      <circle cx="78" cy="54" r="4.5" fill="url(#sphereDuo)" />
+      <circle cx="102" cy="54" r="4.5" fill="url(#sphereDuo)" />
+      <circle cx="125" cy="54" r="4.5" fill="url(#sphereDuo)" />
+      <circle cx="148" cy="54" r="4.5" fill="url(#sphereDuo)" />
+      <circle cx="172" cy="54" r="4.5" fill="url(#sphereDuo)" />
+
+      <!-- Gold Caparison -->
+      <path d="M 68 70 L 182 70 L 160 280 Q 125 310 90 280 Z" fill="url(#goldMiniDuo)" stroke="#CA8A04" stroke-width="1.5" />
+      
+      <!-- 3 Kumbham Studs -->
+      <circle cx="95" cy="115" r="12" fill="url(#sphereDuo)" />
+      <circle cx="125" cy="125" r="10" fill="url(#sphereDuo)" />
+      <circle cx="155" cy="115" r="12" fill="url(#sphereDuo)" />
+
+      <!-- Ganesha Crest & Crescents -->
+      <circle cx="125" cy="155" r="9" fill="url(#sphereDuo)" />
+      <path d="M 112 185 Q 125 198 138 185 Q 125 192 112 185 Z" fill="url(#sphereDuo)" />
+      <path d="M 114 205 Q 125 218 136 205 Q 125 212 114 205 Z" fill="url(#sphereDuo)" />
+      <path d="M 116 225 Q 125 238 134 225 Q 125 232 116 225 Z" fill="url(#sphereDuo)" />
+
+      <!-- Bottom Bell Cone & Red/Green Tassel -->
+      <path d="M 118 320 L 132 320 L 129 342 L 121 342 Z" fill="url(#sphereDuo)" />
+      <circle cx="125" cy="344" r="4.5" fill="url(#sphereDuo)" />
+      <path d="M 120 348 C 115 375, 114 410, 118 440" stroke="#15803D" stroke-width="6" stroke-linecap="round" fill="none" />
+      <path d="M 125 350 C 125 380, 126 415, 125 445" stroke="#DC2626" stroke-width="9" stroke-linecap="round" fill="none" />
+      <path d="M 130 348 C 135 375, 136 410, 132 440" stroke="#15803D" stroke-width="6" stroke-linecap="round" fill="none" />
+
+      <!-- Label -->
+      <text x="125" y="475" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle">
+        Classic Red &amp; Green (2.5 Ft)
+      </text>
+    </g>
+
+    <!-- RIGHT PIECE: Royal Blue & Purple/Magenta 2.5ft Nettipattam (Photo 11 Right) -->
+    <g transform="translate(270, 20)">
+      <!-- Top cord -->
+      <path d="M 125 15 L 75 40 M 125 15 L 175 40" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+      <!-- Alternating Royal Blue & Purple/Magenta Wool Fringe -->
+      <path d="M 60 40 L 48 40 L 50 95 L 64 95 Z" fill="#1E3A8A" />
+      <path d="M 64 95 L 50 95 L 54 175 L 70 175 Z" fill="#7E22CE" />
+      <path d="M 70 175 L 54 175 L 62 260 L 80 260 Z" fill="#047857" />
+      <path d="M 80 260 L 62 260 Q 80 320 125 320 Q 170 320 188 260 L 170 260 Z" fill="#1D4ED8" />
+
+      <path d="M 190 40 L 202 40 L 200 95 L 186 95 Z" fill="#1E3A8A" />
+      <path d="M 186 95 L 200 95 L 196 175 L 180 175 Z" fill="#7E22CE" />
+      <path d="M 180 175 L 196 175 L 188 260 L 170 260 Z" fill="#047857" />
+
+      <!-- Navy Velvet Top Bar -->
+      <rect x="65" y="40" width="120" height="28" rx="3" fill="#1E3A8A" stroke="url(#goldMiniDuo)" stroke-width="2" />
+      <circle cx="78" cy="54" r="4.5" fill="url(#sphereDuo)" />
+      <circle cx="102" cy="54" r="4.5" fill="url(#sphereDuo)" />
+      <circle cx="125" cy="54" r="4.5" fill="url(#sphereDuo)" />
+      <circle cx="148" cy="54" r="4.5" fill="url(#sphereDuo)" />
+      <circle cx="172" cy="54" r="4.5" fill="url(#sphereDuo)" />
+
+      <!-- Gold Caparison -->
+      <path d="M 68 70 L 182 70 L 160 280 Q 125 310 90 280 Z" fill="url(#goldMiniDuo)" stroke="#CA8A04" stroke-width="1.5" />
+      
+      <!-- 3 Kumbham Studs -->
+      <circle cx="95" cy="115" r="12" fill="url(#sphereDuo)" />
+      <circle cx="125" cy="125" r="10" fill="url(#sphereDuo)" />
+      <circle cx="155" cy="115" r="12" fill="url(#sphereDuo)" />
+
+      <!-- Ganesha Crest & Crescents -->
+      <circle cx="125" cy="155" r="9" fill="url(#sphereDuo)" />
+      <path d="M 112 185 Q 125 198 138 185 Q 125 192 112 185 Z" fill="url(#sphereDuo)" />
+      <path d="M 114 205 Q 125 218 136 205 Q 125 212 114 205 Z" fill="url(#sphereDuo)" />
+      <path d="M 116 225 Q 125 238 134 225 Q 125 232 116 225 Z" fill="url(#sphereDuo)" />
+
+      <!-- Bottom Bell Cone & Royal Blue/Purple Tassel -->
+      <path d="M 118 320 L 132 320 L 129 342 L 121 342 Z" fill="url(#sphereDuo)" />
+      <circle cx="125" cy="344" r="4.5" fill="url(#sphereDuo)" />
+      <path d="M 120 348 C 115 375, 114 410, 118 440" stroke="#7E22CE" stroke-width="6" stroke-linecap="round" fill="none" />
+      <path d="M 125 350 C 125 380, 126 415, 125 445" stroke="#1D4ED8" stroke-width="9" stroke-linecap="round" fill="none" />
+      <path d="M 130 348 C 135 375, 136 410, 132 440" stroke="#7E22CE" stroke-width="6" stroke-linecap="round" fill="none" />
+
+      <!-- Label -->
+      <text x="125" y="475" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle">
+        Royal Blue &amp; Purple (2.5 Ft)
+      </text>
+    </g>
+  </g>
+</svg>

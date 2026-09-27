@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 620" width="100%" height="100%">
+  <defs>
+    <!-- Gold Metallic Gradients -->
+    <linearGradient id="goldPlate" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5B8" />
+      <stop offset="25%" stop-color="#E5B83A" />
+      <stop offset="60%" stop-color="#C5961D" />
+      <stop offset="85%" stop-color="#FCE182" />
+      <stop offset="100%" stop-color="#8F680D" />
+    </linearGradient>
+    <radialGradient id="goldSphere" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="30%" stop-color="#FCE588" />
+      <stop offset="70%" stop-color="#C9981E" />
+      <stop offset="100%" stop-color="#6E4F06" />
+    </radialGradient>
+    <radialGradient id="goldSun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF8D6" />
+      <stop offset="50%" stop-color="#E2B134" />
+      <stop offset="100%" stop-color="#8F680D" />
+    </radialGradient>
+    <linearGradient id="redVelvet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#991B1B" />
+      <stop offset="100%" stop-color="#6B1212" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <g filter="url(#dropShadow)">
+    <!-- Top Hanging Cord -->
+    <path d="M 200 15 L 120 45 M 200 15 L 280 45" stroke="#EA580C" stroke-width="3" stroke-linecap="round" fill="none" />
+
+    <!-- Outer Woolen Fringe (Alternating Green & Red) -->
+    <!-- Left Border Fringe -->
+    <!-- Top Green -->
+    <path d="M 100 45 L 85 45 L 88 110 L 105 110 Z" fill="#15803D" stroke="#0F5B2B" stroke-width="1" />
+    <!-- Red -->
+    <path d="M 105 110 L 88 110 L 93 210 L 115 210 Z" fill="#DC2626" stroke="#991B1B" stroke-width="1" />
+    <!-- Green -->
+    <path d="M 115 210 L 93 210 L 104 330 L 128 330 Z" fill="#15803D" stroke="#0F5B2B" stroke-width="1" />
+    <!-- Red -->
+    <path d="M 128 330 L 104 330 L 122 430 L 148 430 Z" fill="#DC2626" stroke="#991B1B" stroke-width="1" />
+    <!-- Green Bottom Curve -->
+    <path d="M 148 430 L 122 430 Q 140 480 200 480 Q 260 480 278 430 L 252 430 Z" fill="#15803D" stroke="#0F5B2B" stroke-width="1" />
+
+    <!-- Right Border Fringe -->
+    <!-- Top Green -->
+    <path d="M 300 45 L 315 45 L 312 110 L 295 110 Z" fill="#15803D" stroke="#0F5B2B" stroke-width="1" />
+    <!-- Red -->
+    <path d="M 295 110 L 312 110 L 307 210 L 285 210 Z" fill="#DC2626" stroke="#991B1B" stroke-width="1" />
+    <!-- Green -->
+    <path d="M 285 210 L 307 210 L 296 330 L 272 330 Z" fill="#15803D" stroke="#0F5B2B" stroke-width="1" />
+    <!-- Red -->
+    <path d="M 272 330 L 296 330 L 278 430 L 252 430 Z" fill="#DC2626" stroke="#991B1B" stroke-width="1" />
+
+    <!-- Top Red Velvet Bar with Brass Border -->
+    <rect x="110" y="45" width="180" height="42" rx="4" fill="url(#redVelvet)" stroke="url(#goldPlate)" stroke-width="3" />
+    <!-- 5 Spherical Gold Studs on Top Bar -->
+    <circle cx="128" cy="66" r="7" fill="url(#goldSphere)" />
+    <circle cx="164" cy="66" r="7" fill="url(#goldSphere)" />
+    <circle cx="200" cy="66" r="7" fill="url(#goldSphere)" />
+    <circle cx="236" cy="66" r="7" fill="url(#goldSphere)" />
+    <circle cx="272" cy="66" r="7" fill="url(#goldSphere)" />
+
+    <!-- Main Golden Caparison Body -->
+    <path d="M 112 92 L 288 92 L 250 425 Q 200 465 150 425 Z" fill="url(#goldPlate)" stroke="#B48216" stroke-width="2" />
+
+    <!-- Micro Stud Grid Texture (Kurumbul Beaded Surface) -->
+    <g fill="#DCA524" opacity="0.6">
+      <!-- Repeated rows of tiny golden dots -->
+      <circle cx="130" cy="115" r="2.5" /><circle cx="145" cy="115" r="2.5" /><circle cx="160" cy="115" r="2.5" /><circle cx="175" cy="115" r="2.5" /><circle cx="190" cy="115" r="2.5" /><circle cx="205" cy="115" r="2.5" /><circle cx="220" cy="115" r="2.5" /><circle cx="235" cy="115" r="2.5" /><circle cx="250" cy="115" r="2.5" /><circle cx="265" cy="115" r="2.5" />
+      <circle cx="125" cy="135" r="2.5" /><circle cx="275" cy="135" r="2.5" />
+      <circle cx="125" cy="155" r="2.5" /><circle cx="275" cy="155" r="2.5" />
+      <circle cx="130" cy="180" r="2.5" /><circle cx="270" cy="180" r="2.5" />
+      <circle cx="135" cy="210" r="2.5" /><circle cx="265" cy="210" r="2.5" />
+      <circle cx="140" cy="240" r="2.5" /><circle cx="260" cy="240" r="2.5" />
+      <circle cx="145" cy="270" r="2.5" /><circle cx="255" cy="270" r="2.5" />
+      <circle cx="150" cy="300" r="2.5" /><circle cx="250" cy="300" r="2.5" />
+      <circle cx="155" cy="330" r="2.5" /><circle cx="245" cy="330" r="2.5" />
+      <circle cx="160" cy="360" r="2.5" /><circle cx="240" cy="360" r="2.5" />
+      <circle cx="165" cy="390" r="2.5" /><circle cx="235" cy="390" r="2.5" />
+      <circle cx="175" cy="415" r="2.5" /><circle cx="225" cy="415" r="2.5" />
+    </g>
+
+    <!-- Top 3 Large Golden Hemispherical Kumbham Studs with Sunburst Halos -->
+    <!-- Left Kumbham -->
+    <circle cx="150" cy="150" r="24" fill="url(#goldSun)" opacity="0.3" />
+    <circle cx="150" cy="150" r="20" stroke="#8F680D" stroke-width="1.5" stroke-dasharray="3,2" fill="none" />
+    <circle cx="150" cy="150" r="16" fill="url(#goldSphere)" />
+
+    <!-- Center Kumbham -->
+    <circle cx="200" cy="165" r="22" fill="url(#goldSun)" opacity="0.3" />
+    <circle cx="200" cy="165" r="18" stroke="#8F680D" stroke-width="1.5" stroke-dasharray="3,2" fill="none" />
+    <circle cx="200" cy="165" r="14" fill="url(#goldSphere)" />
+
+    <!-- Right Kumbham -->
+    <circle cx="250" cy="150" r="24" fill="url(#goldSun)" opacity="0.3" />
+    <circle cx="250" cy="150" r="20" stroke="#8F680D" stroke-width="1.5" stroke-dasharray="3,2" fill="none" />
+    <circle cx="250" cy="150" r="16" fill="url(#goldSphere)" />
+
+    <!-- Flanking Medium Studs -->
+    <circle cx="150" cy="205" r="10" fill="url(#goldSphere)" />
+    <circle cx="250" cy="205" r="10" fill="url(#goldSphere)" />
+
+    <!-- Central Auspicious Ganesha / Elephant Face Emblem -->
+    <g transform="translate(182, 195)">
+      <!-- Ganesha Head & Ears in Polished Gold -->
+      <path d="M 18 0 C 10 -6, 5 5, 2 12 C -2 19, 5 25, 10 22 C 12 18, 14 12, 18 10 C 22 12, 24 18, 26 22 C 31 25, 38 19, 34 12 C 31 5, 26 -6, 18 0 Z" fill="url(#goldSphere)" stroke="#8F680D" stroke-width="1" />
+      <!-- Forehead Kumbham -->
+      <circle cx="18" cy="8" r="4.5" fill="#FFF2A3" />
+      <!-- Trunk extending down -->
+      <path d="M 16 16 L 16 32 Q 18 36 21 34 Q 22 30 19 28 L 20 16 Z" fill="url(#goldPlate)" />
+    </g>
+
+    <!-- Descending Spine of Golden Crescent Moons (Chandran) -->
+    <path d="M 175 250 Q 200 270 225 250 Q 200 262 175 250 Z" fill="url(#goldSphere)" stroke="#7E5606" stroke-width="0.8" />
+    <path d="M 177 270 Q 200 290 223 270 Q 200 282 177 270 Z" fill="url(#goldSphere)" stroke="#7E5606" stroke-width="0.8" />
+    <path d="M 180 290 Q 200 310 220 290 Q 200 302 180 290 Z" fill="url(#goldSphere)" stroke="#7E5606" stroke-width="0.8" />
+    <path d="M 183 310 Q 200 330 217 310 Q 200 322 183 310 Z" fill="url(#goldSphere)" stroke="#7E5606" stroke-width="0.8" />
+    <path d="M 186 330 Q 200 348 214 330 Q 200 341 186 330 Z" fill="url(#goldSphere)" stroke="#7E5606" stroke-width="0.8" />
+    <path d="M 188 350 Q 200 366 212 350 Q 200 359 188 350 Z" fill="url(#goldSphere)" stroke="#7E5606" stroke-width="0.8" />
+    <path d="M 191 370 Q 200 384 209 370 Q 200 378 191 370 Z" fill="url(#goldSphere)" stroke="#7E5606" stroke-width="0.8" />
+
+    <!-- Lateral Rows of Descending Golden Studs -->
+    <circle cx="160" cy="250" r="6" fill="url(#goldSphere)" /><circle cx="240" cy="250" r="6" fill="url(#goldSphere)" />
+    <circle cx="163" cy="285" r="5.5" fill="url(#goldSphere)" /><circle cx="237" cy="285" r="5.5" fill="url(#goldSphere)" />
+    <circle cx="167" cy="320" r="5.5" fill="url(#goldSphere)" /><circle cx="233" cy="320" r="5.5" fill="url(#goldSphere)" />
+    <circle cx="172" cy="355" r="5" fill="url(#goldSphere)" /><circle cx="228" cy="355" r="5" fill="url(#goldSphere)" />
+    <circle cx="178" cy="390" r="5" fill="url(#goldSphere)" /><circle cx="222" cy="390" r="5" fill="url(#goldSphere)" />
+    <circle cx="186" cy="420" r="5" fill="url(#goldSphere)" /><circle cx="214" cy="420" r="5" fill="url(#goldSphere)" />
+    <circle cx="200" cy="435" r="5.5" fill="url(#goldSphere)" />
+
+    <!-- Bottom Finial & Hanging Tassel -->
+    <!-- Gold Bell Cone -->
+    <path d="M 190 480 L 210 480 L 205 505 L 195 505 Z" fill="url(#goldSphere)" stroke="#7E5606" stroke-width="1" />
+    <circle cx="200" cy="506" r="6" fill="url(#goldSphere)" />
+
+    <!-- Hanging Dual-Tone Woolen Tassel (Red center, green outer) -->
+    <!-- Green Left strand -->
+    <path d="M 194 510 C 188 540, 185 570, 192 605" stroke="#15803D" stroke-width="7" stroke-linecap="round" fill="none" />
+    <!-- Red Center main plume -->
+    <path d="M 200 512 C 198 545, 199 575, 200 608" stroke="#DC2626" stroke-width="12" stroke-linecap="round" fill="none" />
+    <!-- Green Right strand -->
+    <path d="M 206 510 C 212 540, 215 570, 208 605" stroke="#15803D" stroke-width="7" stroke-linecap="round" fill="none" />
+    <!-- Tassel Collar Bind -->
+    <rect x="193" y="515" width="14" height="4" rx="2" fill="#E5B83A" />
+  </g>
+</svg>

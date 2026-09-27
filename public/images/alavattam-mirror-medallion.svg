@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="100%" height="100%">
+  <defs>
+    <radialGradient id="mirrorCore" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </radialGradient>
+    <linearGradient id="goldCap" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5B8" />
+      <stop offset="50%" stop-color="#E5B83A" />
+      <stop offset="100%" stop-color="#8F680D" />
+    </linearGradient>
+    <filter id="medallionShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <g filter="url(#medallionShadow)">
+    <!-- Hanging Top Loop -->
+    <path d="M 250 15 Q 230 40 250 50 Q 270 40 250 15 Z" fill="none" stroke="#D97706" stroke-width="4" />
+
+    <!-- Center Base Velvet Disc (Dark Blue / Black) -->
+    <circle cx="250" cy="240" r="160" fill="#0F172A" stroke="#C5961D" stroke-width="3" />
+
+    <!-- Outer Fluffy Woolen Fringe Puffs (Orange, Green, Red repeating around the perimeter) -->
+    <!-- 24 Circular braided wool puffs around radius 168 -->
+    <!-- Segment 1: Red (top) -->
+    <ellipse cx="250" cy="75" rx="22" ry="18" fill="#DC2626" stroke="#991B1B" stroke-width="2" />
+    <ellipse cx="288" cy="85" rx="22" ry="18" transform="rotate(15 288 85)" fill="#DC2626" stroke="#991B1B" stroke-width="2" />
+    
+    <!-- Segment 2: Orange -->
+    <ellipse cx="323" cy="106" rx="22" ry="18" transform="rotate(30 323 106)" fill="#EA580C" stroke="#C2410C" stroke-width="2" />
+    <ellipse cx="355" cy="138" rx="22" ry="18" transform="rotate(45 355 138)" fill="#EA580C" stroke="#C2410C" stroke-width="2" />
+    <ellipse cx="380" cy="177" rx="22" ry="18" transform="rotate(60 380 177)" fill="#EA580C" stroke="#C2410C" stroke-width="2" />
+
+    <!-- Segment 3: Green -->
+    <ellipse cx="395" cy="220" rx="22" ry="18" transform="rotate(75 395 220)" fill="#15803D" stroke="#0F5B2B" stroke-width="2" />
+    <ellipse cx="398" cy="265" rx="22" ry="18" transform="rotate(90 398 265)" fill="#15803D" stroke="#0F5B2B" stroke-width="2" />
+    <ellipse cx="388" cy="308" rx="22" ry="18" transform="rotate(105 388 308)" fill="#15803D" stroke="#0F5B2B" stroke-width="2" />
+
+    <!-- Segment 4: Red -->
+    <ellipse cx="365" cy="347" rx="22" ry="18" transform="rotate(120 365 347)" fill="#DC2626" stroke="#991B1B" stroke-width="2" />
+    <ellipse cx="332" cy="378" rx="22" ry="18" transform="rotate(135 332 378)" fill="#DC2626" stroke="#991B1B" stroke-width="2" />
+    <ellipse cx="292" cy="398" rx="22" ry="18" transform="rotate(150 292 398)" fill="#DC2626" stroke="#991B1B" stroke-width="2" />
+
+    <!-- Segment 5: Green & Bottom -->
+    <ellipse cx="250" cy="405" rx="22" ry="18" fill="#15803D" stroke="#0F5B2B" stroke-width="2" />
+    <ellipse cx="208" cy="398" rx="22" ry="18" transform="rotate(-150 208 398)" fill="#15803D" stroke="#0F5B2B" stroke-width="2" />
+
+    <!-- Segment 6: Orange -->
+    <ellipse cx="168" cy="378" rx="22" ry="18" transform="rotate(-135 168 378)" fill="#EA580C" stroke="#C2410C" stroke-width="2" />
+    <ellipse cx="135" cy="347" rx="22" ry="18" transform="rotate(-120 135 347)" fill="#EA580C" stroke="#C2410C" stroke-width="2" />
+    <ellipse cx="112" cy="308" rx="22" ry="18" transform="rotate(-105 112 308)" fill="#EA580C" stroke="#C2410C" stroke-width="2" />
+
+    <!-- Segment 7: Green -->
+    <ellipse cx="102" cy="265" rx="22" ry="18" transform="rotate(-90 102 265)" fill="#15803D" stroke="#0F5B2B" stroke-width="2" />
+    <ellipse cx="105" cy="220" rx="22" ry="18" transform="rotate(-75 105 220)" fill="#15803D" stroke="#0F5B2B" stroke-width="2" />
+    <ellipse cx="120" cy="177" rx="22" ry="18" transform="rotate(-60 120 177)" fill="#15803D" stroke="#0F5B2B" stroke-width="2" />
+
+    <!-- Segment 8: Orange & Red -->
+    <ellipse cx="145" cy="138" rx="22" ry="18" transform="rotate(-45 145 138)" fill="#EA580C" stroke="#C2410C" stroke-width="2" />
+    <ellipse cx="177" cy="106" rx="22" ry="18" transform="rotate(-30 177 106)" fill="#EA580C" stroke="#C2410C" stroke-width="2" />
+    <ellipse cx="212" cy="85" rx="22" ry="18" transform="rotate(-15 212 85)" fill="#DC2626" stroke="#991B1B" stroke-width="2" />
+
+    <!-- Inner Radial Mirror Mandala -->
+    <!-- Tier 1: Outer Glass Teardrop / Diamond Mirrors -->
+    <g stroke="#CBD5E1" stroke-width="1.5" fill="#F8FAFC">
+      <polygon points="250,110 256,128 250,138 244,128" />
+      <polygon points="290,120 300,136 295,148 285,138" />
+      <polygon points="325,145 338,158 335,170 322,162" />
+      <polygon points="350,180 365,190 365,202 350,198" />
+      <polygon points="360,225 375,232 375,245 360,242" />
+      <polygon points="355,270 370,274 368,287 353,284" />
+      <polygon points="338,310 350,318 345,330 332,324" />
+      <polygon points="308,345 316,358 310,368 298,358" />
+      <polygon points="270,365 274,380 266,388 258,375" />
+      <polygon points="230,365 226,380 234,388 242,375" />
+      <polygon points="192,345 184,358 190,368 202,358" />
+      <polygon points="162,310 150,318 155,330 168,324" />
+      <polygon points="145,270 130,274 132,287 147,284" />
+      <polygon points="140,225 125,232 125,245 140,242" />
+      <polygon points="150,180 135,190 135,202 150,198" />
+      <polygon points="175,145 162,158 165,170 178,162" />
+      <polygon points="210,120 200,136 205,148 215,138" />
+    </g>
+
+    <!-- Tier 2: Middle Circle Mirrors with Multi-Color Beaded Centers -->
+    <g>
+      <!-- Circular mirrors with colored stones -->
+      <circle cx="250" cy="150" r="11" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+      <circle cx="250" cy="150" r="5" fill="#EF4444" />
+
+      <circle cx="295" cy="165" r="11" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+      <circle cx="295" cy="165" r="5" fill="#06B6D4" />
+
+      <circle cx="325" cy="200" r="11" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+      <circle cx="325" cy="200" r="5" fill="#F59E0B" />
+
+      <circle cx="335" cy="245" r="11" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+      <circle cx="335" cy="245" r="5" fill="#10B981" />
+
+      <circle cx="320" cy="290" r="11" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+      <circle cx="320" cy="290" r="5" fill="#EC4899" />
+
+      <circle cx="285" cy="320" r="11" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+      <circle cx="285" cy="320" r="5" fill="#8B5CF6" />
+
+      <circle cx="250" cy="330" r="11" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+      <circle cx="250" cy="330" r="5" fill="#EF4444" />
+
+      <circle cx="215" cy="320" r="11" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+      <circle cx="215" cy="320" r="5" fill="#06B6D4" />
+
+      <circle cx="180" cy="290" r="11" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+      <circle cx="180" cy="290" r="5" fill="#F59E0B" />
+
+      <circle cx="165" cy="245" r="11" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+      <circle cx="165" cy="245" r="5" fill="#10B981" />
+
+      <circle cx="175" cy="200" r="11" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+      <circle cx="175" cy="200" r="5" fill="#EC4899" />
+
+      <circle cx="205" cy="165" r="11" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" />
+      <circle cx="205" cy="165" r="5" fill="#8B5CF6" />
+    </g>
+
+    <!-- Tier 3: Inner Sunburst Star of Diamond Mirrors -->
+    <g fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5">
+      <polygon points="250,180 256,195 250,205 244,195" />
+      <polygon points="280,190 286,205 278,212 272,200" />
+      <polygon points="298,215 300,230 290,234 285,220" />
+      <polygon points="298,255 295,270 285,268 285,252" />
+      <polygon points="275,280 270,295 260,290 262,275" />
+      <polygon points="245,290 240,305 230,300 232,285" />
+      <polygon points="215,280 206,292 200,282 205,270" />
+      <polygon points="202,255 192,265 190,250 198,242" />
+      <polygon points="202,218 195,228 198,212 210,210" />
+      <polygon points="220,192 216,205 228,210 230,198" />
+    </g>
+
+    <!-- Center Grand Polished Convex Mirror Core -->
+    <circle cx="250" cy="240" r="32" fill="url(#mirrorCore)" stroke="url(#goldCap)" stroke-width="4" />
+    <!-- Curved glass light reflection -->
+    <path d="M 232 225 Q 250 215 268 228" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.9" />
+
+    <!-- Bottom Brass Finial Cone & Dual-Tone Tassel -->
+    <!-- Gold Bell Cone -->
+    <path d="M 238 410 L 262 410 L 257 435 L 243 435 Z" fill="url(#goldCap)" stroke="#7E5606" stroke-width="1.5" />
+    <circle cx="250" cy="437" r="7" fill="url(#goldCap)" />
+
+    <!-- Hanging Emerald & Scarlet Red Silk Tassel -->
+    <!-- Emerald Green Left Strand -->
+    <path d="M 244 442 C 235 480, 230 540, 240 600" stroke="#15803D" stroke-width="9" stroke-linecap="round" fill="none" />
+    <!-- Scarlet Red Right Strand -->
+    <path d="M 256 442 C 265 480, 270 540, 260 600" stroke="#DC2626" stroke-width="12" stroke-linecap="round" fill="none" />
+    <!-- Tassel Gold Collar -->
+    <rect x="242" y="448" width="16" height="5" rx="2" fill="url(#goldCap)" />
+  </g>
+</svg>

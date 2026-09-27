@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 640" width="100%" height="100%">
+  <defs>
+    <!-- Gold Gradients -->
+    <linearGradient id="goldLuster" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8D6" />
+      <stop offset="30%" stop-color="#EAB308" />
+      <stop offset="70%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#854D0E" />
+    </linearGradient>
+    <radialGradient id="goldBead" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="35%" stop-color="#FDE047" />
+      <stop offset="75%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#713F12" />
+    </radialGradient>
+    <!-- Silver Pearl Gradients -->
+    <radialGradient id="silverPearl" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="45%" stop-color="#F1F5F9" />
+      <stop offset="80%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#64748B" />
+    </radialGradient>
+    <!-- Navy Velvet -->
+    <linearGradient id="navyVelvet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <!-- Peacock Eye Motif Definition -->
+    <g id="peacockEye">
+      <ellipse cx="0" cy="0" rx="14" ry="9" fill="#064E3B" stroke="#047857" stroke-width="1" />
+      <ellipse cx="0" cy="0" rx="10" ry="6.5" fill="#0284C7" />
+      <ellipse cx="0" cy="0" rx="6.5" ry="4" fill="#D97706" />
+      <ellipse cx="0" cy="0" rx="3.5" ry="2.5" fill="#1E1B4B" />
+    </g>
+    <filter id="peacockShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <g filter="url(#peacockShadow)">
+    <!-- Hanging Orange Cord -->
+    <path d="M 210 15 L 140 45 M 210 15 L 280 45" stroke="#EA580C" stroke-width="3" stroke-linecap="round" fill="none" />
+
+    <!-- Outer Perimeter: Natural Peacock Feathers (Mayilpeeli) Radiating Outwards -->
+    <!-- Left Flank Peacock Feathers -->
+    <use href="#peacockEye" transform="translate(100, 75) rotate(-35)" />
+    <use href="#peacockEye" transform="translate(90, 115) rotate(-45)" />
+    <use href="#peacockEye" transform="translate(85, 160) rotate(-55)" />
+    <use href="#peacockEye" transform="translate(86, 210) rotate(-60)" />
+    <use href="#peacockEye" transform="translate(94, 260) rotate(-70)" />
+    <use href="#peacockEye" transform="translate(108, 310) rotate(-75)" />
+    <use href="#peacockEye" transform="translate(126, 360) rotate(-85)" />
+    <use href="#peacockEye" transform="translate(150, 405) rotate(-100)" />
+    <use href="#peacockEye" transform="translate(180, 440) rotate(-115)" />
+
+    <!-- Right Flank Peacock Feathers -->
+    <use href="#peacockEye" transform="translate(320, 75) rotate(35)" />
+    <use href="#peacockEye" transform="translate(330, 115) rotate(45)" />
+    <use href="#peacockEye" transform="translate(335, 160) rotate(55)" />
+    <use href="#peacockEye" transform="translate(334, 210) rotate(60)" />
+    <use href="#peacockEye" transform="translate(326, 260) rotate(70)" />
+    <use href="#peacockEye" transform="translate(312, 310) rotate(75)" />
+    <use href="#peacockEye" transform="translate(294, 360) rotate(85)" />
+    <use href="#peacockEye" transform="translate(270, 405) rotate(100)" />
+    <use href="#peacockEye" transform="translate(240, 440) rotate(115)" />
+
+    <!-- Dark Green Peacock Feather Wisps Base -->
+    <path d="M 120 48 Q 65 240 160 450 Q 210 470 260 450 Q 355 240 300 48 Z" fill="#064E3B" stroke="#047857" stroke-width="2" />
+
+    <!-- Top Navy Velvet Header Bar -->
+    <rect x="120" y="45" width="180" height="42" rx="4" fill="url(#navyVelvet)" stroke="url(#goldLuster)" stroke-width="2.5" />
+    <!-- 3 Ornate Gold & Pearl Floral Rosette Studs -->
+    <circle cx="150" cy="66" r="10" fill="url(#goldBead)" stroke="#F8FAFC" stroke-width="1.5" />
+    <circle cx="210" cy="66" r="10" fill="url(#goldBead)" stroke="#F8FAFC" stroke-width="1.5" />
+    <circle cx="270" cy="66" r="10" fill="url(#goldBead)" stroke="#F8FAFC" stroke-width="1.5" />
+
+    <!-- Inner Golden Spherical Bead Frame -->
+    <path d="M 124 92 L 296 92 L 260 420 Q 210 455 160 420 Z" fill="#0B132B" stroke="url(#goldLuster)" stroke-width="3" />
+    
+    <!-- Dense Grid of White Silver Pearls (The iconic body of Image 3) -->
+    <g fill="url(#silverPearl)">
+      <!-- Alternating Rows of Gleaming Silver Pearls -->
+      <circle cx="140" cy="115" r="4.5" /><circle cx="155" cy="115" r="4.5" /><circle cx="170" cy="115" r="4.5" /><circle cx="185" cy="115" r="4.5" /><circle cx="200" cy="115" r="4.5" /><circle cx="215" cy="115" r="4.5" /><circle cx="230" cy="115" r="4.5" /><circle cx="245" cy="115" r="4.5" /><circle cx="260" cy="115" r="4.5" /><circle cx="275" cy="115" r="4.5" />
+      <circle cx="138" cy="135" r="4" /><circle cx="282" cy="135" r="4" />
+      <circle cx="138" cy="155" r="4" /><circle cx="282" cy="155" r="4" />
+      <circle cx="142" cy="180" r="4" /><circle cx="278" cy="180" r="4" />
+      <circle cx="146" cy="210" r="4" /><circle cx="274" cy="210" r="4" />
+      <circle cx="152" cy="240" r="4" /><circle cx="268" cy="240" r="4" />
+      <circle cx="158" cy="270" r="4" /><circle cx="262" cy="270" r="4" />
+      <circle cx="164" cy="300" r="4" /><circle cx="256" cy="300" r="4" />
+      <circle cx="170" cy="330" r="4" /><circle cx="250" cy="330" r="4" />
+      <circle cx="176" cy="360" r="4" /><circle cx="244" cy="360" r="4" />
+      <circle cx="184" cy="390" r="4" /><circle cx="236" cy="390" r="4" />
+      <circle cx="194" cy="415" r="4" /><circle cx="226" cy="415" r="4" />
+    </g>
+
+    <!-- 3 Grand Sunburst Medallions with Silver Rays and Gold Centers -->
+    <!-- Left Medallion -->
+    <circle cx="160" cy="155" r="22" fill="#F8FAFC" stroke="url(#goldLuster)" stroke-width="1.5" />
+    <circle cx="160" cy="155" r="14" fill="url(#goldBead)" />
+    <!-- Center Medallion -->
+    <circle cx="210" cy="150" r="18" fill="#F8FAFC" stroke="url(#goldLuster)" stroke-width="1.5" />
+    <circle cx="210" cy="150" r="11" fill="url(#goldBead)" />
+    <!-- Right Medallion -->
+    <circle cx="260" cy="155" r="22" fill="#F8FAFC" stroke="url(#goldLuster)" stroke-width="1.5" />
+    <circle cx="260" cy="155" r="14" fill="url(#goldBead)" />
+
+    <!-- Center Radiant Ganesha/Elephant Gold Head with White Solar Flares -->
+    <g transform="translate(192, 195)">
+      <!-- Radiant white sun flare collar -->
+      <circle cx="18" cy="18" r="26" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2" />
+      <!-- Gold Elephant Face -->
+      <path d="M 18 2 C 10 -4, 5 7, 2 14 C -2 21, 5 27, 10 24 C 12 20, 14 14, 18 12 C 22 14, 24 20, 26 24 C 31 27, 38 21, 34 14 C 31 7, 26 -4, 18 2 Z" fill="url(#goldBead)" stroke="#854D0E" stroke-width="1" />
+      <!-- Forehead Kumbham -->
+      <circle cx="18" cy="10" r="4" fill="#FFFFFF" />
+      <!-- Trunk extending down -->
+      <path d="M 16 18 L 16 34 Q 18 38 21 36 Q 22 32 19 30 L 20 18 Z" fill="url(#goldLuster)" />
+    </g>
+
+    <!-- Descending Spine of Golden Crescent Moons (Chandran) -->
+    <path d="M 185 260 Q 210 278 235 260 Q 210 270 185 260 Z" fill="url(#goldBead)" stroke="#713F12" stroke-width="1" />
+    <path d="M 188 280 Q 210 298 232 280 Q 210 290 188 280 Z" fill="url(#goldBead)" stroke="#713F12" stroke-width="1" />
+    <path d="M 191 300 Q 210 318 229 300 Q 210 310 191 300 Z" fill="url(#goldBead)" stroke="#713F12" stroke-width="1" />
+    <path d="M 194 320 Q 210 336 226 320 Q 210 328 194 320 Z" fill="url(#goldBead)" stroke="#713F12" stroke-width="1" />
+
+    <!-- Lateral Gold Studs -->
+    <circle cx="170" cy="255" r="6" fill="url(#goldBead)" /><circle cx="250" cy="255" r="6" fill="url(#goldBead)" />
+    <circle cx="175" cy="290" r="6" fill="url(#goldBead)" /><circle cx="245" cy="290" r="6" fill="url(#goldBead)" />
+    <circle cx="182" cy="325" r="5.5" fill="url(#goldBead)" /><circle cx="238" cy="325" r="5.5" fill="url(#goldBead)" />
+    <circle cx="190" cy="360" r="5.5" fill="url(#goldBead)" /><circle cx="230" cy="360" r="5.5" fill="url(#goldBead)" />
+    <circle cx="210" cy="370" r="7" fill="url(#goldBead)" stroke="#F8FAFC" stroke-width="1.5" />
+    <circle cx="200" cy="405" r="5" fill="url(#goldBead)" /><circle cx="220" cy="405" r="5" fill="url(#goldBead)" />
+
+    <!-- Bottom Peacock Tuft, Bell Cone & Long Royal Blue Silk Tassel -->
+    <!-- Peacock Feather Tuft at Base -->
+    <g transform="translate(210, 470)">
+      <ellipse cx="-15" cy="-8" rx="12" ry="7" transform="rotate(-30)" fill="#064E3B" />
+      <ellipse cx="15" cy="-8" rx="12" ry="7" transform="rotate(30)" fill="#064E3B" />
+      <ellipse cx="0" cy="-4" rx="14" ry="8" fill="#047857" />
+    </g>
+
+    <!-- Gold Bell Cone -->
+    <path d="M 200 465 L 220 465 L 215 490 L 205 490 Z" fill="url(#goldBead)" stroke="#713F12" stroke-width="1.5" />
+    <circle cx="210" cy="492" r="6.5" fill="url(#goldBead)" />
+
+    <!-- Long Royal Blue Silk Woolen Tassel (Image 3) -->
+    <path d="M 200 495 C 190 530, 185 580, 195 625" stroke="#1D4ED8" stroke-width="8" stroke-linecap="round" fill="none" />
+    <path d="M 210 498 C 208 535, 210 585, 210 630" stroke="#1E40AF" stroke-width="16" stroke-linecap="round" fill="none" />
+    <path d="M 220 495 C 230 530, 235 580, 225 625" stroke="#1D4ED8" stroke-width="8" stroke-linecap="round" fill="none" />
+    <!-- Tassel Collar -->
+    <rect x="202" y="502" width="16" height="5" rx="2" fill="url(#goldLuster)" />
+  </g>
+</svg>

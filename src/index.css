@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-display: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  --color-maroon-950: #2B060C;
+  --color-maroon-900: #420A12;
+  --color-maroon-800: #58111A;
+  --color-maroon-700: #6B1724;
+  --color-maroon-600: #881E2F;
+
+  --color-gold-700: #7E611E;
+  --color-gold-600: #9B782B;
+  --color-gold-500: #C5A059;
+  --color-gold-400: #D4AF37;
+  --color-gold-300: #E6CA65;
+
+  --color-cream-50: #FDFBF7;
+  --color-cream-100: #FAF6EE;
+  --color-cream-200: #F2EADB;
+  --color-cream-300: #E6DBCE;
+
+  --color-teak-950: #140A06;
+  --color-teak-900: #1F110B;
+  --color-teak-800: #2C1810;
+  --color-teak-700: #3E2419;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF6EE;
+  color: #2C1810;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+.font-serif-body {
+  font-family: var(--font-serif);
+}
+
+/* Kerala gold border / kasavu pattern accent */
+.kasavu-border-bottom {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #D4AF37 0px,
+    #D4AF37 8px,
+    #9B782B 8px,
+    #9B782B 12px,
+    #C5A059 12px,
+    #C5A059 20px
+  );
+  height: 4px;
+}
+
+.kasavu-pattern {
+  background-color: #58111A;
+  background-image: radial-gradient(#D4AF37 0.75px, transparent 0.75px), radial-gradient(#D4AF37 0.75px, #58111A 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+

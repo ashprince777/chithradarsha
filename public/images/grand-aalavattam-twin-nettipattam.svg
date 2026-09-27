@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 640" width="100%" height="100%">
+  <defs>
+    <!-- Gold Metallic Gradients -->
+    <linearGradient id="gold6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8D6" />
+      <stop offset="35%" stop-color="#EAB308" />
+      <stop offset="70%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#854D0E" />
+    </linearGradient>
+    <radialGradient id="sphere6" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="35%" stop-color="#FDE047" />
+      <stop offset="75%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#713F12" />
+    </radialGradient>
+    <radialGradient id="sunburst6" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="40%" stop-color="#FACC15" />
+      <stop offset="85%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#713F12" />
+    </radialGradient>
+    <!-- Navy Velvet -->
+    <linearGradient id="navyVelvet6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <!-- Peacock Eye Definition -->
+    <g id="peacockFeatherSmall">
+      <ellipse cx="0" cy="0" rx="10" ry="6" fill="#064E3B" stroke="#047857" stroke-width="0.8" />
+      <ellipse cx="0" cy="0" rx="7" ry="4" fill="#0284C7" />
+      <ellipse cx="0" cy="0" rx="4" ry="2.5" fill="#D97706" />
+      <circle cx="0" cy="0" r="1.5" fill="#1E1B4B" />
+    </g>
+    <!-- Aalavattam Ear Roundel Component Definition -->
+    <g id="aalavattamEar">
+      <!-- Outer halo of peacock feathers -->
+      <circle cx="0" cy="0" r="58" fill="#064E3B" stroke="#047857" stroke-width="2" />
+      <!-- Radiant peacock feather eyes around perimeter -->
+      <use href="#peacockFeatherSmall" transform="translate(0, -48) rotate(0)" />
+      <use href="#peacockFeatherSmall" transform="translate(24, -42) rotate(30)" />
+      <use href="#peacockFeatherSmall" transform="translate(42, -24) rotate(60)" />
+      <use href="#peacockFeatherSmall" transform="translate(48, 0) rotate(90)" />
+      <use href="#peacockFeatherSmall" transform="translate(42, 24) rotate(120)" />
+      <use href="#peacockFeatherSmall" transform="translate(24, 42) rotate(150)" />
+      <use href="#peacockFeatherSmall" transform="translate(0, 48) rotate(180)" />
+      <use href="#peacockFeatherSmall" transform="translate(-24, 42) rotate(210)" />
+      <use href="#peacockFeatherSmall" transform="translate(-42, 24) rotate(240)" />
+      <use href="#peacockFeatherSmall" transform="translate(-48, 0) rotate(270)" />
+      <use href="#peacockFeatherSmall" transform="translate(-42, -24) rotate(300)" />
+      <use href="#peacockFeatherSmall" transform="translate(-24, -42) rotate(330)" />
+
+      <!-- Inner Ring of Ruby / Magenta Jeweled Petals -->
+      <circle cx="0" cy="0" r="34" fill="#0284C7" stroke="url(#gold6)" stroke-width="1.5" />
+      <g fill="#EC4899">
+        <circle cx="0" cy="-26" r="3.5" /><circle cx="13" cy="-23" r="3.5" /><circle cx="23" cy="-13" r="3.5" /><circle cx="26" cy="0" r="3.5" />
+        <circle cx="23" cy="13" r="3.5" /><circle cx="13" cy="23" r="3.5" /><circle cx="0" cy="26" r="3.5" /><circle cx="-13" cy="23" r="3.5" />
+        <circle cx="-23" cy="13" r="3.5" /><circle cx="-26" cy="0" r="3.5" /><circle cx="-23" cy="-13" r="3.5" /><circle cx="-13" cy="-23" r="3.5" />
+      </g>
+      <!-- Central Brilliant Polished Sunburst Gold Medallion -->
+      <circle cx="0" cy="0" r="22" fill="url(#sunburst6)" stroke="#854D0E" stroke-width="1.5" />
+      <circle cx="0" cy="0" r="10" fill="url(#sphere6)" />
+    </g>
+    <filter id="twinShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <g filter="url(#twinShadow)">
+    <!-- THE TWO GRAND AALAVATTAM EAR ROUNDELS (At Top Left and Top Right) -->
+    <!-- Left Aalavattam Ear -->
+    <g transform="translate(130, 95)">
+      <use href="#aalavattamEar" />
+    </g>
+    <!-- Right Aalavattam Ear -->
+    <g transform="translate(470, 95)">
+      <use href="#aalavattamEar" />
+    </g>
+
+    <!-- Peacock Feather Perimeter Lining Central Caparison -->
+    <path d="M 215 75 Q 165 240 250 470 Q 300 495 350 470 Q 435 240 385 75 Z" fill="#064E3B" stroke="#047857" stroke-width="3" />
+    <!-- Peacock eye details along flank -->
+    <use href="#peacockFeatherSmall" transform="translate(195, 125) rotate(-35)" />
+    <use href="#peacockFeatherSmall" transform="translate(185, 175) rotate(-50)" />
+    <use href="#peacockFeatherSmall" transform="translate(182, 230) rotate(-65)" />
+    <use href="#peacockFeatherSmall" transform="translate(192, 290) rotate(-75)" />
+    <use href="#peacockFeatherSmall" transform="translate(210, 350) rotate(-85)" />
+    <use href="#peacockFeatherSmall" transform="translate(235, 410) rotate(-100)" />
+
+    <use href="#peacockFeatherSmall" transform="translate(405, 125) rotate(35)" />
+    <use href="#peacockFeatherSmall" transform="translate(415, 175) rotate(50)" />
+    <use href="#peacockFeatherSmall" transform="translate(418, 230) rotate(65)" />
+    <use href="#peacockFeatherSmall" transform="translate(408, 290) rotate(75)" />
+    <use href="#peacockFeatherSmall" transform="translate(390, 350) rotate(85)" />
+    <use href="#peacockFeatherSmall" transform="translate(365, 410) rotate(100)" />
+
+    <!-- Top Navy Velvet Bar -->
+    <rect x="220" y="70" width="160" height="38" rx="4" fill="url(#navyVelvet6)" stroke="url(#gold6)" stroke-width="3" />
+    <!-- 5 Spherical Gold Studs -->
+    <circle cx="236" cy="89" r="6.5" fill="url(#sphere6)" />
+    <circle cx="268" cy="89" r="6.5" fill="url(#sphere6)" />
+    <circle cx="300" cy="89" r="6.5" fill="url(#sphere6)" />
+    <circle cx="332" cy="89" r="6.5" fill="url(#sphere6)" />
+    <circle cx="364" cy="89" r="6.5" fill="url(#sphere6)" />
+
+    <!-- Golden Caparison Body -->
+    <path d="M 224 112 L 376 112 L 345 440 Q 300 480 255 440 Z" fill="url(#gold6)" stroke="#B48216" stroke-width="2" />
+
+    <!-- Kurumbul Beaded Surface Grid -->
+    <g fill="#DCA524" opacity="0.6">
+      <circle cx="240" cy="135" r="2.5" /><circle cx="255" cy="135" r="2.5" /><circle cx="270" cy="135" r="2.5" /><circle cx="285" cy="135" r="2.5" /><circle cx="300" cy="135" r="2.5" /><circle cx="315" cy="135" r="2.5" /><circle cx="330" cy="135" r="2.5" /><circle cx="345" cy="135" r="2.5" /><circle cx="360" cy="135" r="2.5" />
+      <circle cx="235" cy="160" r="2.5" /><circle cx="365" cy="160" r="2.5" />
+      <circle cx="238" cy="195" r="2.5" /><circle cx="362" cy="195" r="2.5" />
+      <circle cx="242" cy="235" r="2.5" /><circle cx="358" cy="235" r="2.5" />
+      <circle cx="248" cy="275" r="2.5" /><circle cx="352" cy="275" r="2.5" />
+      <circle cx="255" cy="315" r="2.5" /><circle cx="345" cy="315" r="2.5" />
+      <circle cx="262" cy="355" r="2.5" /><circle cx="338" cy="355" r="2.5" />
+      <circle cx="272" cy="395" r="2.5" /><circle cx="328" cy="395" r="2.5" />
+      <circle cx="285" cy="430" r="2.5" /><circle cx="315" cy="430" r="2.5" />
+    </g>
+
+    <!-- Top 3 Large Golden Kumbham Studs with Sunburst Halos -->
+    <circle cx="255" cy="170" r="18" stroke="#8F680D" stroke-width="1.5" stroke-dasharray="3,2" fill="none" />
+    <circle cx="255" cy="170" r="13" fill="url(#sphere6)" />
+
+    <circle cx="300" cy="180" r="16" stroke="#8F680D" stroke-width="1.5" stroke-dasharray="3,2" fill="none" />
+    <circle cx="300" cy="180" r="11" fill="url(#sphere6)" />
+
+    <circle cx="345" cy="170" r="18" stroke="#8F680D" stroke-width="1.5" stroke-dasharray="3,2" fill="none" />
+    <circle cx="345" cy="170" r="13" fill="url(#sphere6)" />
+
+    <!-- Central Gold Ganesha/Elephant Emblem -->
+    <g transform="translate(282, 215)">
+      <path d="M 18 0 C 10 -6, 5 5, 2 12 C -2 19, 5 25, 10 22 C 12 18, 14 12, 18 10 C 22 12, 24 18, 26 22 C 31 25, 38 19, 34 12 C 31 5, 26 -6, 18 0 Z" fill="url(#sphere6)" stroke="#8F680D" stroke-width="1" />
+      <circle cx="18" cy="8" r="4" fill="#FFF2A3" />
+      <path d="M 16 16 L 16 32 Q 18 36 21 34 Q 22 30 19 28 L 20 16 Z" fill="url(#gold6)" />
+    </g>
+
+    <!-- Descending Spine of Golden Crescent Moons (Chandran) -->
+    <path d="M 275 270 Q 300 288 325 270 Q 300 280 275 270 Z" fill="url(#sphere6)" />
+    <path d="M 278 290 Q 300 308 322 290 Q 300 300 278 290 Z" fill="url(#sphere6)" />
+    <path d="M 281 310 Q 300 328 319 310 Q 300 320 281 310 Z" fill="url(#sphere6)" />
+    <path d="M 284 330 Q 300 346 316 330 Q 300 338 284 330 Z" fill="url(#sphere6)" />
+    <path d="M 287 350 Q 300 364 313 350 Q 300 357 287 350 Z" fill="url(#sphere6)" />
+    <path d="M 290 370 Q 300 382 310 370 Q 300 376 290 370 Z" fill="url(#sphere6)" />
+
+    <!-- Lateral Gold Studs -->
+    <circle cx="260" cy="270" r="5" fill="url(#sphere6)" /><circle cx="340" cy="270" r="5" fill="url(#sphere6)" />
+    <circle cx="265" cy="305" r="5" fill="url(#sphere6)" /><circle cx="335" cy="305" r="5" fill="url(#sphere6)" />
+    <circle cx="272" cy="340" r="4.5" fill="url(#sphere6)" /><circle cx="328" cy="340" r="4.5" fill="url(#sphere6)" />
+    <circle cx="280" cy="375" r="4.5" fill="url(#sphere6)" /><circle cx="320" cy="375" r="4.5" fill="url(#sphere6)" />
+    <circle cx="300" cy="405" r="5.5" fill="url(#sphere6)" />
+
+    <!-- Bottom Bell Cone & Royal Blue / Black Silk Tassel -->
+    <path d="M 290 480 L 310 480 L 305 505 L 295 505 Z" fill="url(#sphere6)" stroke="#7E5606" stroke-width="1.5" />
+    <circle cx="300" cy="507" r="6.5" fill="url(#sphere6)" />
+
+    <!-- Rich Royal Blue Silk Tassel -->
+    <path d="M 292 512 C 285 545, 282 585, 290 625" stroke="#1E3A8A" stroke-width="8" stroke-linecap="round" fill="none" />
+    <path d="M 300 514 C 298 550, 300 590, 300 630" stroke="#0F172A" stroke-width="16" stroke-linecap="round" fill="none" />
+    <path d="M 308 512 C 315 545, 318 585, 310 625" stroke="#1E3A8A" stroke-width="8" stroke-linecap="round" fill="none" />
+    <rect x="292" y="518" width="16" height="5" rx="2" fill="url(#gold6)" />
+  </g>
+</svg>
